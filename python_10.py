@@ -9,6 +9,8 @@ Example Output -'''
 import nltk
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.tag import pos_tag
+'''nltk.download('punkt')'''
+nltk.download('averaged_perceptron_tagger')
 
 def count_pos_tags(text):
     """
